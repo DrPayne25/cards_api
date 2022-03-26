@@ -1,6 +1,16 @@
+# OSX #
+.DS_Store
+
+# Byte-compiled / optimized / DLL files #
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django #
+*.log
+db.sqlite3
+media
 .venv
-.pytest_cache
-__pycache__
-.vscode
-poetry.lock
+venv/
+venv.bak/
 .env
